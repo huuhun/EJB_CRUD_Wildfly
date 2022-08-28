@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <script src=".resources/js/jquery-3.6.0.min.js"></script>
+  <script src=".resources/js/bootstrap.min.js"></script>
+
+  <script src=".resources/js/popper.min.js"></script>
+  <link rel="stylesheet" href="./resources/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap-theme.min.css">
+
+  <style>
+    #box {
+
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+
+
+    }
+
+    .topnav {
+      overflow: hidden;
+
+    }
+
+    .topnav a {
+      float: left;
+
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+  </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-md-12">
+            <form method="POST" id="insert_data_hoten">
+            <h1>Tên</h1>
+            <input type="text" class="form-control" id="hovaten" placeholder="Điền họ tên">
+            <h1>Số đt</h1>
+            <input type="text" class="form-control" id="sophone" placeholder="Số ĐT">
+            <h1>Địa chỉ</h1>
+            <input type="text" class="form-control" id="diachi" placeholder="ĐCHỈ">
+            <h1>Email</h1>
+            <input type="text" class="form-control" id="email" placeholder="Email">
+            <h1>Ghi chú</h1>
+            <input type="text" class="form-control" id="ghichu" placeholder="gHI CHÚ">
+            <br>
+            <input type="button" id="button_insert" name="insert_data" value="Insert" class="btn btn-success">
+        </form>
+        </div>
+  
+     
+      
+     
+
+    
+    </div>
+ 
+</body>
+
+</html>
